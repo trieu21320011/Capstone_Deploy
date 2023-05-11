@@ -1,6 +1,5 @@
 import React, { useState, Fragment } from "react";
 
-import { RangeDatePicker, DatePicker } from "@y0c/react-datepicker";
 import "../../../index.css";
 
 import "moment/locale/vi";
@@ -32,23 +31,13 @@ const Pickers = () => {
                         <div className="col-md-6 mb-3">
                            <div className="example">
                               <p className="mb-1">Date Range Pick</p>
-                              <RangeDatePicker
-                                 startText="Start"
-                                 endText="End"
-                                 startPlaceholder="Start Date"
-                                 endPlaceholder="End Date"
-                              />
+
                            </div>
                         </div>
                         <div className="col-md-6 mb-3">
                            <div className="example">
                               <p className="mb-1">Date Range With Time</p>
-                              <RangeDatePicker
-                                 startText="Start"
-                                 endText="End"
-                                 startPlaceholder="Start Date"
-                                 endPlaceholder="End Date"
-                              />
+
                            </div>
                         </div>
                      </div>
@@ -62,7 +51,7 @@ const Pickers = () => {
                   </div>
                   <div className="card-body">
                      <p className="mb-1">Default picker</p>
-                     <DatePicker />
+
                   </div>
                </div>
             </div>
