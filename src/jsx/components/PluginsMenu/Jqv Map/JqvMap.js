@@ -2,8 +2,8 @@ import React from "react";
 
 import Usa from "@svg-maps/usa";
 import World from "@svg-maps/world";
-import { SVGMap } from "react-svg-map";
-import "react-svg-map/lib/index.css";
+
+
 import PageTitle from "../../../layouts/PageTitle";
 
 const JqvMap = () => {
@@ -19,7 +19,7 @@ const JqvMap = () => {
                   </div>
                   <div className="card-body overflow-hidden">
                      <div id="world-map">
-                        <SVGMap map={World} />
+                   
                      </div>
                   </div>
                </div>
@@ -31,7 +31,7 @@ const JqvMap = () => {
                   </div>
                   <div className="card-body">
                      <div id="usa">
-                        <SVGMap map={Usa} />
+                       
                      </div>
                   </div>
                </div>
