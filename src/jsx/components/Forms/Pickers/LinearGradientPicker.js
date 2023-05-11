@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { SketchPicker } from "react-color";
 import { GradientPickerPopover } from "react-linear-gradient-picker";
 
 const rgbToRgba = (rgb, a = 1) =>
@@ -7,14 +6,7 @@ const rgbToRgba = (rgb, a = 1) =>
 
 const WrappedSketchPicker = ({ onSelect, ...rest }) => {
    return (
-      <SketchPicker
-         {...rest}
-         color={rgbToRgba(rest.color, rest.opacity)}
-         onChange={(c) => {
-            const { r, g, b, a } = c.rgb;
-            onSelect(`rgb(${r}, ${g}, ${b})`, a);
-         }}
-      />
+      <div></div>
    );
 };
 
