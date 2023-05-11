@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import { EditorState, ContentState } from "draft-js";
-import { Editor } from "react-draft-wysiwyg";
 import htmlToDraft from "html-to-draftjs";
-import "react-draft-wysiwyg/dist/react-draft-wysiwyg.css";
 
 class EditorConvertToHTML extends Component {
    constructor(props) {
@@ -30,12 +28,7 @@ class EditorConvertToHTML extends Component {
       const { editorState } = this.state;
       return (
          <div>
-            <Editor
-               editorState={editorState}
-               wrapperClassName="demo-wrapper"
-               editorClassName="demo-editor"
-               onEditorStateChange={this.onEditorStateChange}
-            />
+            
          </div>
       );
    }
