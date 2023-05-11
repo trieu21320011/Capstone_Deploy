@@ -1,31 +1,10 @@
 import React, { Fragment } from "react";
 
 /// Scroll
-import PerfectScrollbar from "react-perfect-scrollbar";
 
 
-import avatar1 from "../../images/avatar/1.jpg";
-import avatar2 from "../../images/avatar/2.jpg";
-import avatar3 from "../../images/avatar/3.jpg";
-import avatar4 from "../../images/avatar/4.jpg";
-import profile from "../../images/profile/profile.png";
-import bg5 from "../../images/big/img5.jpg";
-import { Dropdown, Tab, Nav } from "react-bootstrap";
-import Pie from "../components/charts/Chartjs/pie";
-import BarChart from "../components/charts/chartflot/Bar";
 
-import { Sparklines, SparklinesLine, SparklinesBars } from "react-sparklines";
-import LineChart from "../components/charts/Chartjs/line3";
-import LineChart4 from "../components/charts/Chartjs/line4";
-import LineChart6 from "../components/charts/Chartjs/line6";
-import BarChartNoPadding from "../components/charts/rechart/BarChartNoPadding";
-import LineChart3 from "../components/charts/Chartjs/line3";
-import SparkNagetivePositive from "../components/charts/rechart/PositiveNagative";
-import BarChart2 from "../components/charts/Chartjs/bar2";
-import BarChart3 from "../components/charts/Chartjs/bar3";
-import LiveBar from "../components/charts/Chartjs/bar4";
 
-import RealTime from "../components/charts/Chartjs/realtime";
 import { Link } from "react-router-dom";
 
 const sampleData = [10, 24, 30, 10, 15, 0, 20, 30, 65, 12, 10, 6];

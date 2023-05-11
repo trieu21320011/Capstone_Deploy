@@ -5,15 +5,8 @@ import { useEffect,useState } from "react";
 
 import loadable from "@loadable/component";
 import pMinDelay from "p-min-delay";
-const ApexNagetivePosative3 = loadable(() =>
-   pMinDelay(import("../charts/apexcharts/NagetivePositive3"), 500)
-);
-const ApexRedialBar2 = loadable(() =>
-   pMinDelay(import("../charts/apexcharts/RadialBar2"), 500)
-);
-const LineChart7 = loadable(() =>
-   pMinDelay(import("../charts/Chartjs/line7"), 0)
-);
+
+
 
 function Home() {
    useEffect(() => {
@@ -186,17 +179,17 @@ function Home() {
                               >
                                  <Tab.Pane eventKey="monthly">
                                     <div style={{ height: "300px" }}>
-                                       <LineChart7 data={0} height="300" />
+                                      
                                     </div>
                                  </Tab.Pane>
                                  <Tab.Pane eventKey="weekly">
                                     <div style={{ height: "300px" }}>
-                                       <LineChart7 data={1} height="300" />
+                                  
                                     </div>
                                  </Tab.Pane>
                                  <Tab.Pane eventKey="today">
                                     <div style={{ height: "300px" }}>
-                                       <LineChart7 data={2} height="300" />
+                                    
                                     </div>
                                  </Tab.Pane>
                               </Tab.Content>

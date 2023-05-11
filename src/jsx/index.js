@@ -61,16 +61,14 @@ import Invoice from "./components/AppsMenu/Shop/Invoice/Invoice";
 import ProductOrder from "./components/AppsMenu/Shop/ProductOrder";
 
 /// Chirt
-import SparklineChart from "./components/charts/Sparkline";
-import ChartJs from "./components/charts/Chartjs";
-import Chartist from "./components/charts/chartist";
 
-import BtcChart from "./components/charts/apexcharts/ApexChart";
+
+
+
 
 /// Table
 import DataTable from "./components/table/DataTable";
 import BootstrapTable from "./components/table/BootstrapTable";
-import ApexChart from "./components/charts/apexcharts";
 
 /// Form
 import Element from "./components/Forms/Element/Element";
@@ -86,7 +84,6 @@ import MainNouiSlider from "./components/PluginsMenu/Noui Slider/MainNouiSlider"
 import MainSweetAlert from "./components/PluginsMenu/Sweet Alert/SweetAlert";
 import Toastr from "./components/PluginsMenu/Toastr/Toastr";
 import JqvMap from "./components/PluginsMenu/Jqv Map/JqvMap";
-import RechartJs from "./components/charts/rechart";
 import ProfileSidebar from "./layouts/ProfileSidebar";
 import Lightgallery from "./components/PluginsMenu/Lightgallery/Lightgallery";
 import { useHistory } from "react-router-dom";
@@ -146,12 +143,9 @@ const Markup = ({ showProfileSideBar }) => {
       { url: "ecom-product-detail", component: ProductDetail, protected: true },
 
       /// Chart
-      { url: "chart-sparkline", component: SparklineChart, protected: true },
-      { url: "chart-chartjs", component: ChartJs, protected: true },
-      { url: "chart-chartist", component: Chartist, protected: true },
-      { url: "chart-btc", component: BtcChart, protected: true },
-      { url: "chart-apexchart", component: ApexChart, protected: true },
-      { url: "chart-rechart", component: RechartJs, protected: true },
+
+
+
 
       /// table
       { url: "table-datatable-basic", component: DataTable, protected: true },
