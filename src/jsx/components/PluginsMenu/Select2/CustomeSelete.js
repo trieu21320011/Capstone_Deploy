@@ -1,6 +1,5 @@
 import React from "react";
 
-import Select, { components } from "react-select";
 import { colourOptions, groupedOptions } from "./data";
 
 const groupStyles = {
@@ -19,7 +18,7 @@ const options = [
 export default function customGroup() {
    return (
       <div style={{ minHeight: "100px" }}>
-         <Select defaultValue={options[1]} options={options} />
+         
       </div>
    );
 }

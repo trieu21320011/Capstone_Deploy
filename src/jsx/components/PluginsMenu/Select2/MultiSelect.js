@@ -1,6 +1,6 @@
 import React from "react";
 
-import Select from "react-select";
+
 import { colourOptions } from "./data";
 
 const CustomClearText = () => "clear all";
@@ -29,13 +29,6 @@ const ClearIndicatorStyles = (base, state) => ({
 
 export default function CustomClearIndicator() {
    return (
-      <Select
-         closeMenuOnSelect={false}
-         components={{ ClearIndicator }}
-         styles={{ clearIndicator: ClearIndicatorStyles }}
-         defaultValue={[colourOptions[4], colourOptions[5]]}
-         isMulti
-         options={colourOptions}
-      />
+  <div></div>
    );
 }
