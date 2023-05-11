@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 
-import Multistep from "react-multistep";
+
 
 import StepOne from "./StepOne";
 import StepTwo from "./StepTwo";
@@ -51,12 +51,7 @@ const Wizard = () => {
                         id="step-form-horizontal"
                         className="step-form-horizontal"
                      >
-                        <Multistep
-                           showNavigation={true}
-                           steps={steps}
-                           prevStyle={prevStyle}
-                           nextStyle={nextStyle}
-                        />
+                 
                      </form>
                   </div>
                </div>
