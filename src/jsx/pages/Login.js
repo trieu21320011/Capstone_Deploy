@@ -10,7 +10,6 @@ import useAuth from "../hooks/useAuth";
 import { RecaptchaVerifier, signInWithPhoneNumber } from "firebase/auth";
 import { toast, Toaster } from "react-hot-toast";
 import swal from "sweetalert";
-import swalMessage from "@sweetalert/with-react";
 import { useHistory, Link, useLocation } from "react-router-dom";
 import Swal from "sweetalert2";
 
