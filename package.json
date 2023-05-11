@@ -1,6 +1,6 @@
 {
    "name": "eclan",
-   "homepage": "https://eclan.dexignzone.com/react/",
+   "homepage": ".",
    "version": "0.1.0",
    "engines": {
       "node": "14.x",
