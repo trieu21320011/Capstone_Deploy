@@ -7,7 +7,6 @@ import Markup from "./jsx";
 import "./vendor/bootstrap-select/dist/css/bootstrap-select.min.css";
 import "./css/style.css";
 
-import { withResizeDetector } from "react-resize-detector";
 
 const App = ({ width }) => {
    const body = document.querySelector("body");
@@ -37,4 +36,4 @@ const App = ({ width }) => {
    );
 };
 
-export default withResizeDetector(App);
+export default App;
